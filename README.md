@@ -2,6 +2,10 @@
 
 Servidor MCP público e gratuito do **[cloo.be](https://cloo.be/?utm_source=github&utm_medium=readme)**, o clube de ofertas que verifica o preço de cada promoção nas APIs oficiais das lojas.
 
+<!-- gerado:resumo -->
+Ofertas da Shopee, do Mercado Livre, do AliExpress, da Amazon, da Magalu e da Shein.
+<!-- /gerado:resumo -->
+
 Conecte o ChatGPT, o Claude, o Cursor, o VS Code ou qualquer cliente MCP e pergunte coisas como:
 
 - "Qual a melhor air fryer até R$ 300 hoje?"
@@ -12,21 +16,26 @@ Conecte o ChatGPT, o Claude, o Cursor, o VS Code ou qualquer cliente MCP e pergu
 
 ## Lojas
 
+<!-- gerado:lojas -->
 | Loja | O que vem |
 |---|---|
 | Shopee, Mercado Livre, AliExpress | Busca completa, preço verificado na API oficial da loja |
-| Amazon, Magalu, Shein | Ofertas escolhidas pela equipe ([Escolha do Editor](https://cloo.be/?utm_source=github&utm_medium=readme)) |
+| Amazon, Magalu, Shein | Ofertas escolhidas pela equipe (Escolha do Editor). Magalu e Shein: preço conferido pela equipe na data da última conferência; Amazon: sem preço (o preço aparece na loja) |
+<!-- /gerado:lojas -->
 
 Cada oferta traz preço atual em reais, preço anterior, desconto, nota, vendas, data da verificação (`verified_at`), a página da oferta no cloo.be e o link de compra.
 
 ## Ferramentas
 
-| Ferramenta | Para quê |
-|---|---|
-| `buscar_ofertas` | Busca por produto com preço máximo, desconto mínimo e ordem (relevância, mais vendidos, menor preço, maior desconto) |
-| `ofertas_em_alta` | Temas em alta no Brasil hoje com as melhores ofertas de cada um |
-| `ofertas_da_categoria` | Melhores ofertas de uma categoria (ex.: `casa-e-decoracao`, `beleza`) |
-| `search` / `fetch` | Formato de busca e detalhe usado pelo ChatGPT (conectores e deep research) |
+<!-- gerado:ferramentas -->
+| Ferramenta | Para quê | Parâmetros (? = opcional) |
+|---|---|---|
+| `search` | Pesquisar ofertas | `query` |
+| `fetch` | Detalhes da oferta | `id` |
+| `buscar_ofertas` | Buscar ofertas com filtros | `termo`, `ordem`?, `preco_maximo`?, `desconto_minimo`?, `limite`?, `pagina`? |
+| `ofertas_em_alta` | Ofertas em alta hoje | `por_tema`? |
+| `ofertas_da_categoria` | Ofertas por categoria | `categoria`, `ordem`?, `preco_maximo`?, `limite`?, `pagina`? |
+<!-- /gerado:ferramentas -->
 
 Todas são somente leitura.
 
