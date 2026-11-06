@@ -2,9 +2,17 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "be.cloo/ofertas",
   "title": "cloo.be: ofertas do Brasil",
-  "description": "Ofertas da Shopee, do Mercado Livre e do AliExpress com preço verificado, mais Amazon, Magalu e Shein escolhidas pela equipe.",
+  "description": "Ofertas da Shopee, Mercado Livre, AliExpress, Amazon, Magalu e Shein: busca, em alta e categorias.",
   "websiteUrl": "https://cloo.be",
-  "repository": { "url": "https://github.com/givaldos/cloobe-mcp", "source": "github" },
+  "repository": {
+    "url": "https://github.com/givaldos/cloobe-mcp",
+    "source": "github"
+  },
   "version": "1.2.0",
-  "remotes": [{ "type": "streamable-http", "url": "https://cloo.be/mcp" }]
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cloo.be/mcp"
+    }
+  ]
 }
