@@ -35,6 +35,7 @@ Cada oferta traz preço atual em reais, preço anterior, desconto, nota, vendas,
 | `buscar_ofertas` | Buscar ofertas com filtros | `termo`, `ordem`?, `preco_maximo`?, `desconto_minimo`?, `limite`?, `pagina`? |
 | `ofertas_em_alta` | Ofertas em alta hoje | `por_tema`? |
 | `ofertas_da_categoria` | Ofertas por categoria | `categoria`, `ordem`?, `preco_maximo`?, `limite`?, `pagina`? |
+| `cupons_de_desconto` | Cupons de desconto válidos | `termo`?, `categoria`?, `limite`? |
 <!-- /gerado:ferramentas -->
 
 Todas são somente leitura.
