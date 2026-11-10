@@ -107,3 +107,6 @@ curl -s -X POST https://cloo.be/mcp \
 ## Contato
 
 [cloo.be](https://cloo.be/?utm_source=github&utm_medium=readme)
+
+## Extra
+[![M8ven Score](https://m8ven.ai/badge/mcp/givaldos-cloobe-mcp-2xyxm0?v=d73dae717fdb46895ae516599355ecf4)](https://m8ven.ai/mcp/givaldos-cloobe-mcp-2xyxm0?s=readme)
