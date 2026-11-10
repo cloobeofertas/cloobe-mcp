@@ -110,3 +110,5 @@ curl -s -X POST https://cloo.be/mcp \
 
 ## Extra
 [![M8ven Score](https://m8ven.ai/badge/mcp/givaldos-cloobe-mcp-2xyxm0?v=d73dae717fdb46895ae516599355ecf4)](https://m8ven.ai/mcp/givaldos-cloobe-mcp-2xyxm0?s=readme)
+
+[![M8ven Score](https://m8ven.ai/badge/mcp/givaldos/cloobe-mcp)](https://m8ven.ai/mcp/givaldos/cloobe-mcp?s=readme)
