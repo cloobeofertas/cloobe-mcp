@@ -3,7 +3,7 @@
 Servidor MCP público e gratuito do **[cloo.be](https://cloo.be/?utm_source=github&utm_medium=readme)**, o clube de ofertas que verifica o preço de cada promoção nas APIs oficiais das lojas.
 
 <!-- gerado:resumo -->
-Ofertas da Shopee, do Mercado Livre, do AliExpress, da Amazon, da Magalu e da Shein.
+Ofertas das principais lojas online do Brasil.
 <!-- /gerado:resumo -->
 
 Conecte o ChatGPT, o Claude, o Cursor, o VS Code ou qualquer cliente MCP e pergunte coisas como:
@@ -17,10 +17,10 @@ Conecte o ChatGPT, o Claude, o Cursor, o VS Code ou qualquer cliente MCP e pergu
 ## Lojas
 
 <!-- gerado:lojas -->
-| Loja | O que vem |
+| Cobertura | O que vem |
 |---|---|
-| Shopee, Mercado Livre, AliExpress | Busca completa, preço verificado na API oficial da loja |
-| Amazon, Magalu, Shein | Ofertas escolhidas pela equipe (Escolha do Editor). Magalu e Shein: preço conferido pela equipe na data da última conferência; Amazon: sem preço (o preço aparece na loja) |
+| Lojas com busca completa | Preço verificado na API oficial da loja |
+| Escolha do Editor | Ofertas escolhidas pela equipe; em parte delas, preço conferido pela equipe na data da última conferência; nas demais, sem preço (o preço aparece na loja) |
 <!-- /gerado:lojas -->
 
 Cada oferta traz preço atual em reais, preço anterior, desconto, nota, vendas, data da verificação (`verified_at`), a página da oferta no cloo.be e o link de compra.
