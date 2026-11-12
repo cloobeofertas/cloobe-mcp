@@ -5,10 +5,10 @@
   "description": "Ofertas das principais lojas online do Brasil: busca, em alta, categorias e cupons.",
   "websiteUrl": "https://cloo.be",
   "repository": {
-    "url": "https://github.com/givaldos/cloobe-mcp",
+    "url": "https://github.com/cloobeofertas/cloobe-mcp",
     "source": "github"
   },
-  "version": "1.2.1",
+  "version": "1.2.2",
   "remotes": [
     {
       "type": "streamable-http",
