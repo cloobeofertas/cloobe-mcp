@@ -40,6 +40,8 @@ Cada oferta traz preço atual em reais, preço anterior, desconto, nota, vendas,
 
 Todas são somente leitura.
 
+A busca entende erro de digitação e palavra junta ou separada ("geladera", "airfryer"). Quando houver, `buscar_ofertas` também devolve `voce_quis_dizer` (a grafia usada na busca) e `buscas_parecidas` (outras buscas com ofertas no momento, cada uma com o link da busca no cloo.be).
+
 ## Como conectar
 
 ### Claude (claude.ai e app)
