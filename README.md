@@ -25,6 +25,8 @@ Conecte o ChatGPT, o Claude, o Cursor, o VS Code ou qualquer cliente MCP e pergu
 
 Cada oferta traz preço atual em reais, preço anterior, desconto, nota, vendas, data da verificação (`verified_at`), a página da oferta no cloo.be e o link de compra.
 
+Além do desconto anunciado pela loja (`discount`, `original_price`), as buscas e as listas de categoria trazem o preço medido pelo próprio cloo.be: `price_history` (dias acompanhados, preço mais comum do período em `usual_price`, quanto o preço de hoje está abaixo ou acima dele em `vs_usual_pct`, menor preço e se hoje é o menor) e `reason`, o motivo comprovado em uma frase ("Menor preço em 30 dias"). Para dizer se um preço caiu de verdade, use esses dois campos.
+
 ## Ferramentas
 
 <!-- gerado:ferramentas -->
