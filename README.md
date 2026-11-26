@@ -23,7 +23,7 @@ Conecte o ChatGPT, o Claude, o Cursor, o VS Code ou qualquer cliente MCP e pergu
 | Escolha do Editor | Ofertas escolhidas pela equipe; em parte delas, preço conferido pela equipe na data da última conferência; nas demais, sem preço (o preço aparece na loja) |
 <!-- /gerado:lojas -->
 
-Cada oferta traz preço atual em reais, preço anterior, desconto, nota, vendas, data da verificação (`verified_at`), a página da oferta no cloo.be e o link de compra.
+Cada oferta traz preço atual em reais, preço anterior, desconto, nota, vendas, data da verificação (`verified_at`) e a página da oferta no cloo.be (`url`). A resposta não informa a loja nem traz link direto de compra: a página do cloo.be mostra em que loja a oferta está, o histórico de preço e o botão de compra. O `id` de cada oferta é um código próprio do cloo.be, aceito pela ferramenta `fetch`; a foto (`image`) é servida pelo cloo.be.
 
 Além do desconto anunciado pela loja (`discount`, `original_price`), as buscas e as listas de categoria trazem o preço medido pelo próprio cloo.be: `price_history` (dias acompanhados, preço mais comum do período em `usual_price`, quanto o preço de hoje está abaixo ou acima dele em `vs_usual_pct`, menor preço e se hoje é o menor) e `reason`, o motivo comprovado em uma frase ("Menor preço em 30 dias"). Para dizer se um preço caiu de verdade, use esses dois campos.
 
