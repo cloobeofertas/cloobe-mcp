@@ -96,6 +96,8 @@ curl -s -X POST https://cloo.be/mcp \
   -d '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"buscar_ofertas","arguments":{"termo":"air fryer","preco_maximo":300,"limite":3}}}'
 ```
 
+**Limite de uso.** Assistentes de IA reconhecidos (ChatGPT, Claude, Perplexity, Gemini, Copilot, Grok e outros) usam o servidor sem cota. Clientes não identificados têm 20 consultas por hora. Se o seu assistente ou a sua integração caiu nesse limite, identifique-se no `clientInfo.name` e escreva para contato@cloo.be.
+
 ## Outras formas de acesso
 
 - Registro oficial do MCP: `be.cloo/ofertas`
